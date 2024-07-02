@@ -48,7 +48,7 @@ class MotoPopular(Veiculo):
 
 class VeiculoFactory:
     @staticmethod
-    def get_carro(tipo: str) -> Veiculo:
+    def get_carro(tipo: str) -> Veiculo:  # type: ignore
         if tipo == 'carro_luxo':
             return CarroLuxo()
         if tipo == 'carro_popular':
