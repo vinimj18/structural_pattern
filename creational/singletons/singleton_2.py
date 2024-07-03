@@ -12,7 +12,6 @@ def singleton(the_class):
 @singleton
 class AppSettings:
     def __init__(self) -> None:
-        # O init será chamado todas as vezes
         self.tema = 'Tema Escuro'
         self.font_size = '18px'
 
